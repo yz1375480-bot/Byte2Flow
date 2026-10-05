@@ -7,14 +7,6 @@ This repository accompanies our manuscript, **"Byte2Flow: Packet-Aware Encrypted
 
 Byte2Flow is a packet-aware deep learning framework designed for communication behavior analysis and gateway-based network monitoring. It aims to identify different network activities and potential security threats using passively observed packet information, particularly in environments where encrypted communications limit the visibility of application-layer content.
 
-The framework combines three components:
-
-- **Multi-scale CNN:** Extracts local patterns from packet byte representations.
-- **Feature-wise Linear Modulation (FiLM):** Incorporates packet metadata, including packet length and direction, to modulate the extracted features.
-- **Mamba:** Captures inter-packet dependencies for flow-level classification.
-
-The study focuses on classification performance and computational efficiency, exploring the potential of packet-aware representation learning for gateway-based communication monitoring.
-
 ## Datasets
 
 Two publicly available datasets are used to evaluate Byte2Flow under different communication conditions.
@@ -55,7 +47,7 @@ The repository is currently being organized. Supporting materials will be added 
 - [ ] Examples of packet byte representations
 - [ ] Model configurations and experimental settings
 - [ ] Evaluation results and comparison materials
-- [ ] Additional implementation and reproducibility materials, where available
+- [ ] Additional implementation and reproducibility materials
 
 The complete model implementation and datasets are not currently included in this repository. Dataset redistribution will follow the permissions and licensing terms of the original sources.
 
