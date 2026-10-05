@@ -49,7 +49,7 @@ The repository is currently being organized. Supporting materials will be added 
 - [ ] Evaluation results and comparison materials
 - [ ] Additional implementation and reproducibility materials
 
-The complete model implementation and datasets are not currently included in this repository. Dataset redistribution will follow the permissions and licensing terms of the original sources.
+Dataset redistribution will follow the permissions and licensing terms of the original sources.
 
 ## Zenodo Record
 
